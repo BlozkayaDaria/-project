@@ -1,0 +1,14 @@
+html {
+    background-image: url(https://s1.1zoom.ru/b5047/548/Wood_planks_Blue_Light_Blue_530211_2560x1440.jpg);
+    }
+    .link {
+      text-align: center;
+      padding: 40px 40px 40px 40px;
+      width: 600px;
+      margin: 0;
+      font-size: 24px;
+      background-color: rgba(250, 241, 203, 0.5);
+      position: relative; 
+      border-radius: 90px;
+      
+  }  
