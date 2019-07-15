@@ -98,7 +98,7 @@ img {
 #Tag{
   background: #ffffff ;
   color: rgb(70, 68, 73);
-  position: fixed;;
+  position: absolute;
   width: 180px;
   height: 30px;
   margin-right: 40px;
@@ -107,13 +107,15 @@ img {
       outline: none;
       border: none;
       top: 25%; left: 40%; bottom: 10%; right: 10%;
+      margin-top: 40px;
+      z-index: 1;
 }
 #Tag:hover {background-color: #ddd}
 
 #Post{
   background: #ffffff ;
   color: rgb(70, 68, 73);
-  position: fixed;;
+  position: absolute;
   width: 180px;
   height: 30px;
   margin-right: 40px;
@@ -122,6 +124,8 @@ img {
       outline: none;
       border: none;
       top: 25%; left: 60%; bottom: 10%; right: 10%;
+      margin-top: 40px;
+      z-index: 1;
 }
 #Post:hover {background-color: #ddd}
 
