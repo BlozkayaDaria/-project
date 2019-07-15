@@ -1,14 +1,129 @@
 html {
-    background-color: aquamarine;
-    }
-    .link {
-      text-align: center;
-      padding: 40px 40px 40px 40px;
-      width: 600px;
-      margin: 0;
-      font-size: 24px;
-      background-color: rgba(250, 241, 203, 0.5);
-      position: relative; 
-      border-radius: 90px;
+    /*background-color: aquamarine;*/
+    background-image: url(https://porting-team.ru/wp-content/uploads/2017/09/13699.jpg);
+    
+}
+    #search-form {
+      width: 200px;
+      height: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+       margin-top: 5px;
+      color: rgb(70, 68, 73); 
+      border-radius: 40px;
+      outline: none;
+      border: none;
       
-  }  
+ 
+    }
+    .container-form button{
+    border: none;
+    background-color: transparent;
+
+    }
+#login {
+  position:absolute;
+  width: 90px;
+  height: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+  border-radius: 40px;
+      outline: none;
+      border: none;
+  color: rgb(70, 68, 73);
+  background: #ffffff ;
+  top:0;
+  right:0;
+}
+#login:hover {background-color: #ddd}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  width: 720px;
+  height: 500px;
+}
+
+
+
+
+/*jkrl;*/
+
+.profile {
+  margin: 0;
+  width: 100%;
+}
+.Pictures{
+  text-align: center;
+}
+.topprofile{
+ padding: 120px;
+ background:  rgba(0,0,0,0.4);
+}
+#avatar {
+  width: 180px; 
+  height: 200px;
+  z-index: 1;
+  transform: translate(-30%, -20%);
+  position: absolute;
+  top: 0%; left: 25%; bottom: 5%; right: 5%;
+  margin-top: 100px;
+  
+}
+#Follow {
+ background: #ffffff ;
+  color: rgb(70, 68, 73);
+  position:absolute;
+  width: 140px;
+  height: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+  border-radius: 40px;
+      outline: none;
+      border: none;
+      top: 10%; left: 70%; bottom: 10%; right: 10%;
+}
+#Follow:hover {background-color: #ddd}
+.menu {
+  position: absolute;
+  top: 10%; left: 40%; bottom: 10%; right: 10%;
+  font-size: 32px;
+  font-style: italic;
+}
+.FolPostsInfo {
+  position: absolute;
+  left: 55%;
+}
+
+#Tag{
+  background: #ffffff ;
+  color: rgb(70, 68, 73);
+  position:absolute;
+  width: 180px;
+  height: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+  border-radius: 40px;
+      outline: none;
+      border: none;
+      top: 30%; left: 40%; bottom: 10%; right: 10%;
+}
+#Tag:hover {background-color: #ddd}
+
+#Post{
+  background: #ffffff ;
+  color: rgb(70, 68, 73);
+  position:absolute;
+  width: 180px;
+  height: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+  border-radius: 40px;
+      outline: none;
+      border: none;
+      top: 30%; left: 60%; bottom: 10%; right: 10%;
+}
+#Post:hover {background-color: #ddd}
+
+
+
