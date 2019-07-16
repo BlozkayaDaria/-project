@@ -21,7 +21,7 @@ html {
     background-color: transparent;
 
     }
-#login {
+  #login {
   position:absolute;
   width: 90px;
   height: 30px;
@@ -42,7 +42,13 @@ img {
   border-radius: 20px;
   width: 720px;
   height: 500px;
+  margin:5px;
+  position: relative;
 }
+img:hover{
+  opacity: 0.5; 
+}
+
 
 
 
@@ -92,7 +98,7 @@ img {
 }
 .FolPostsInfo {
   position: absolute;
-  left: 55%;
+  left: 45%;
 }
 
 #Tag{
@@ -102,11 +108,12 @@ img {
   width: 180px;
   height: 30px;
   margin-right: 40px;
-  margin-top: 5px;
+  transform: translate(-30%, -20%);
   border-radius: 40px;
+
       outline: none;
       border: none;
-      top: 25%; left: 40%; bottom: 10%; right: 10%;
+      top: 150%; left: 0%; bottom: 10%; right: 10%;
       margin-top: 40px;
       z-index: 1;
 }
@@ -119,15 +126,12 @@ img {
   width: 180px;
   height: 30px;
   margin-right: 40px;
-  margin-top: 5px;
+  transform: translate(-30%, -20%);
   border-radius: 40px;
       outline: none;
       border: none;
-      top: 25%; left: 60%; bottom: 10%; right: 10%;
+      top: 150%; left: 150%; bottom: 10%; right: 10%;
       margin-top: 40px;
       z-index: 1;
 }
 #Post:hover {background-color: #ddd}
-
-
-
